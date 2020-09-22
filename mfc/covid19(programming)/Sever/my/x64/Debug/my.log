@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  ResultDlg.cpp
+  myView.cpp
+c:\users\songjihoon\desktop\새 폴더\sever\my\myview.cpp(90): warning C4101: 'pOldBrush' :참조되지 않은 지역 변수입니다.
+c:\users\songjihoon\desktop\새 폴더\sever\my\myview.cpp(312): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\songjihoon\desktop\새 폴더\sever\my\myview.cpp(1038): warning C4244: '초기화 중': 'INT_PTR'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  myDoc.cpp
+  my.cpp
+  MainFrm.cpp
+  DlgHumanMake.cpp
+  ConnectNum.cpp
+  CListenSocket.cpp
+  CHuman.cpp
+  CChildSocket.cpp
+  코드를 생성하고 있습니다...
+  my.vcxproj -> C:\Users\SongJihoon\Desktop\새 폴더\Sever\x64\Debug\my.exe
+  my.vcxproj -> C:\Users\SongJihoon\Desktop\새 폴더\Sever\x64\Debug\my.pdb (Partial PDB)
