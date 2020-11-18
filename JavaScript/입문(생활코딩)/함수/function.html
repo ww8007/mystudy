@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function numbering() {
+            i = 0;
+            while (i < 20) {
+                document.write(i + "<br />");
+                i += 1;
+            }
+            // 내부에 써줌 document.write(내용);
+        }
+        //함수의 효용 : 재사용성을 높혀줌
+        // 수정 변경 용이
+        //위와 아래는 같은 문법으로 파악 1을 출력한다.
+        for (j = 0; j < 5; j++) {
+            numbering();
+        }
+    </script>
+</body>
+
+</html>

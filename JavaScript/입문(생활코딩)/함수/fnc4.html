@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        numbering = function() {
+                i = 0;
+                while (i < 10) {
+                    document.write(i + "<br />");
+                    i++;
+                }
+            }
+            // 위의 방법과 아래 방법은 동일 하다. JSC는 함수를 표현 하는 방밥이 여러가지
+        function numbering2() {
+            i = 10;
+            while (i < 20) {
+                document.write(i + "<br />");
+                i++;
+            }
+        }
+        (function() {
+            i = 20;
+            while (i < 30) {
+                document.write(i + "<br />");
+                i++;
+            }
+        })(); // 정의와 함수 동시에 함 : 익명함수 이름이 필요없고 바로 실행 
+        numbering();
+        numbering2();
+    </script>
+</body>
+
+</html>
