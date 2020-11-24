@@ -25,13 +25,13 @@ int main(void)
 		{
 			if (my.empty())
 			{
-				cout << "-1" << "\n";
+				cout << -1 << '\n';
 			}
 			else
 			{
-				int a = my.front();
+				int c = my.front();
 				my.pop();
-				cout << a << '\n';
+				cout << c << '\n';
 			}
 		}
 		else if (a == "size")
@@ -42,18 +42,18 @@ int main(void)
 		{
 			if (my.empty())
 			{
-				cout << '1' << '\n';
+				cout << 1 << '\n';
 			}
 			else
 			{
-				cout << '0' << '\n';
+				cout << 0 << '\n';
 			}
 		}
 		else if (a == "front")
 		{
 			if (my.empty())
 			{
-				cout << '-1' << '\n';
+				cout << -1 << '\n';
 			}
 			else
 			{
@@ -65,7 +65,7 @@ int main(void)
 		{
 			if (my.empty())
 			{
-				cout << '-1' << '\n';
+				cout << -1 << '\n';
 			}
 			else
 			{
